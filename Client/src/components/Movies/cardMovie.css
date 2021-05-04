@@ -1,0 +1,140 @@
+.card-test{
+    margin-top: 235px;
+}
+.card-test h3{
+    color: white;
+    font-size: 37px;
+}
+.card-movie{
+    position: absolute;
+    width: 300px;
+    height: 900px;
+    background: #000;
+}
+
+.card-movie .poster{
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+}
+.card-movie .poster img{
+    width: 100%;
+    
+}
+/* ---------------------- */
+* {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+  }
+  .intro {
+    text-align: center;
+  }
+.movie-card {
+    background: #ffffff;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 200px;
+    margin: 20px 14px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.movie-header {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.movie-header img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.header-icon-container {
+   position: relative;
+   text-align: center;
+   padding-top: 100px;
+   font-size: 30px;
+   
+}
+.header-icon-container a{
+    text-decoration: none;
+    /* color: #7ab014; */
+    color: white;
+    
+}
+.header-icon-container a:hover{
+    color: inherit;
+}
+.header-icon {
+    width: 100%;
+    height: 160px;
+    color: #ffffff;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 20px #6ABCEA;
+    opacity: .85;
+  }
+.header-icon:hover {
+    font-size: 30px;
+    text-shadow: 0px 0px 20px #6abcea, 0px 5px 30px #6ABCEA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 1;
+    transform: scale(1.5);
+}
+.movie-content {
+    padding: 18px 18px 24px 18px;
+    margin: 0;
+}
+.movie-content-header, .movie-info {
+    display: table;
+    width: 100%;
+}  
+.movie-title {
+    font-size: 15px;
+    margin: 0;
+    display: table-cell;
+} 
+.movie-info {
+    margin-top: 1em;
+}
+  
+.info-section {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+  
+.info-section:first-of-type {
+    text-align: left;
+}
+  
+.info-section:last-of-type {
+    text-align: right;
+}
+  
+.info-section label {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: .5em;
+    font-size: 9px;
+}
+  
+.info-section span {
+    font-weight: 700;
+    font-size: 11px;
+  }
+  
+@media screen and (max-width: 100px) {
+    .movie-card {
+      width: 95%;
+      max-width: 95%;
+      margin: 1em;
+      display: block;
+    }
+}

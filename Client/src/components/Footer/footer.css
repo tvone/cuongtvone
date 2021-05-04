@@ -1,0 +1,36 @@
+.footer-movie{
+    margin-top: 10px;
+    background-color: #141414;
+    color: white;
+}
+.is-div{
+    height: 3px;
+    background-color: #5a5a5a;
+    width: 100%;
+}
+.infomation{
+    padding: 20px;
+   text-align: center;
+}
+.infomation img{
+    width: 150px;
+}
+.infomation li{
+    list-style: none;
+    line-height: 40px;
+}
+.infomation li a{
+    text-decoration: none;
+    color: white;
+}
+.p-footer{
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+#footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 15px;
+}
